@@ -1,0 +1,1 @@
+$('.teacher_container').slick();
