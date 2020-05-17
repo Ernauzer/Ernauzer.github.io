@@ -1199,8 +1199,4 @@ body {
  }
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
-  .main_content {
-      background: url(../images/background/destop@2x.png) center 5px no-repeat;
-      background-size: cover;
- }
 }
