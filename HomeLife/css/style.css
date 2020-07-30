@@ -209,9 +209,6 @@ body {
     color: #272726;
     transition: 0.3s linear;
 }
-.services_item:last-child {
-    margin-right: 0;
-}
 .services_item:hover {
     box-shadow: 4px 11px 27px rgba(137, 137, 137, 0.24);
 }
@@ -407,6 +404,10 @@ footer {
     .services_items_conteiner {
         justify-content: space-evenly;
     }
+    .services_item {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
     .about_us {
         overflow: hidden;
     }
@@ -440,5 +441,8 @@ footer {
     }
     .wrapper_serv {
         max-width: 1070px;
+    }
+    .advantages_conteiner_content {
+        justify-content: center;
     }
 }
