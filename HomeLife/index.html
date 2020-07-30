@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=1200">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
@@ -17,7 +16,7 @@
 
 <body>
 
-    <div class="main_conteiner">
+    <div id="top" class="main_conteiner">
         <header class="main_header wrapper">
 
             <div class="header_logo">
@@ -25,18 +24,18 @@
                     <img class="logo" src="./img/Logo.png" alt="logo">
                 </a>
             </div>
-            <ul class="list nav_list">
+            <ul class="list nav_list nav_list_flex">
                 <li class="list_item">
-                    <a href="#about" class="link list_link link_active">О Компании</a>
+                    <a href="#about" class="link list_link link_active btn_scroll">О Компании</a>
                 </li>
                 <li class="list_item">
-                    <a href="#services" class="link list_link">Услуги</a>
+                    <a href="#services" class="link list_link btn_scroll">Услуги</a>
                 </li>
                 <li class="list_item">
-                    <a href="#" class="link list_link">Галерея</a>
+                    <a href="#" class="link list_link btn_scroll">Галерея</a>
                 </li>
                 <li class="list_item">
-                    <a href="#" class="link list_link">Контакты</a>
+                    <a href="#" class="link list_link btn_scroll">Контакты</a>
                 </li>
             </ul>
             <a href="tel:+380634325436" class="link list_link header_email">+38 (063) 432-54-36</a>
@@ -45,15 +44,24 @@
         </header>
         <div class="main_slider">
             <div class="swiper-container">
+                <div class="slider_block_btn">
+                    <a href="#" class="link btn_default main_btn header_btn_active">Подробнее</a>
+                </div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="slider_box slider slider1"></div>
+                        <div class="slider_box slider slider1">
+                            <img src="./img/slider/title.jpg" alt="Лучшая авторская мебель">
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="slider_box slider slider2"></div>
+                        <div class="slider_box slider slider2">
+                            <img src="./img/slider/title.jpg" alt="Новая авторская мебель">
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="slider_box slider slider3"></div>
+                        <div class="slider_box slider slider3">
+                            <img src="./img/slider/title.jpg" alt="Крутая авторская мебель">
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -65,24 +73,30 @@
         <div class="title_block">
             <h2 class="title section_title">Преимущества HomeLife</h2>
         </div>
-        <div class="advantages_content">
-            <div class="advantages_item advantes_individuality">
-                <span class="title advantages_item_title">Индивидуальность</span>
-                <p class="paragraph advantages_item_paragraph">
-                    В течение нескольких рабочих дней мы разрабатываем проект вашей мебели, продумываем каждую мелочь
-                </p>
+        <div class="advantages_conteiner_content">
+            <div class="advantages_content">
+                <div class="advantages_item advantes_individuality">
+                    <span class="title advantages_item_title">Индивидуальность</span>
+                    <p class="paragraph advantages_item_paragraph">
+                        В течение нескольких рабочих дней мы разрабатываем проект вашей мебели, продумываем каждую
+                        мелочь
+                    </p>
+                </div>
+                <div class="advantages_item advantes_only_eco">
+                    <span class="title advantages_item_title">Только экоматериалы</span>
+                    <p class="paragraph advantages_item_paragraph">
+                        В своей работе наша студия использует только высококачественную и экологически чистую фурнитуру
+                    </p>
+                </div>
+                <div class="advantages_item advantes_design_quality">
+                    <span class="title advantages_item_title">Акцент на дизайн и качество</span>
+                    <p class="paragraph advantages_item_paragraph">
+                        Наши сотрудники с предельной аккуратностью приступают к исполнению вашего заказа
+                    </p>
+                </div>
             </div>
-            <div class="advantages_item advantes_only_eco">
-                <span class="title advantages_item_title">Только экоматериалы</span>
-                <p class="paragraph advantages_item_paragraph">
-                    В своей работе наша студия использует только высококачественную и экологически чистую фурнитуру
-                </p>
-            </div>
-            <div class="advantages_item advantes_design_quality">
-                <span class="title advantages_item_title">Акцент на дизайн и качество</span>
-                <p class="paragraph advantages_item_paragraph">
-                    Наши сотрудники с предельной аккуратностью приступают к исполнению вашего заказа
-                </p>
+            <div class="advantages_img_block">
+                <img src="./img/Layer_7.jpg" alt="">
             </div>
         </div>
     </div>
@@ -178,16 +192,16 @@
             </div>
             <ul class="list nav_list footer_list">
                 <li class="list_item footer_list_item">
-                    <a href="#about" class="link list_link">О Компании</a>
+                    <a href="#about" class="link list_link btn_scroll">О Компании</a>
                 </li>
                 <li class="list_item footer_list_item">
-                    <a href="#services" class="link list_link">Услуги</a>
+                    <a href="#services" class="link list_link btn_scroll">Услуги</a>
                 </li>
                 <li class="list_item footer_list_item">
-                    <a href="#" class="link list_link">Галерея</a>
+                    <a href="#" class="link list_link" btn_scroll>Галерея</a>
                 </li>
                 <li class="list_item footer_list_item">
-                    <a href="#" class="link list_link">Контакты</a>
+                    <a href="#" class="link list_link btn_scroll">Контакты</a>
                 </li>
             </ul>
             <div class="footer_list footer_email_tel">
@@ -206,7 +220,7 @@
                 </a>
             </div>
             <div class="footer_btn_go_top_block">
-                <button type="button" class="btn_default btn_go_top"></button>
+                <a href="#top" class="btn_default btn_go_top btn_scroll"></a>
             </div>
         </div>
     </footer>
