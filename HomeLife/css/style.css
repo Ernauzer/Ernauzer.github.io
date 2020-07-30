@@ -258,7 +258,7 @@ body {
 }
 .services_items_conteiner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .about_us {
@@ -437,5 +437,8 @@ footer {
 @media (max-width: 1260px) {
     .wrapper {
         max-width: 990px;
+    }
+    .wrapper_serv {
+        max-width: 1070px;
     }
 }
