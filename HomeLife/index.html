@@ -37,35 +37,52 @@
                 <li class="list_item">
                     <a href="#" class="link list_link btn_scroll">Контакты</a>
                 </li>
+                <li class="list_item">
+                    <a href="tel:+380634325436" class="link list_link header_email">+38 (063) 432-54-36</a>
+                </li>
+                
             </ul>
-            <a href="tel:+380634325436" class="link list_link header_email">+38 (063) 432-54-36</a>
             <a href="#" class="link btn_default header_btn">Подробнее</a>
-
+            <div class="burger_conteiner">
+                <a href="#" class="link burger_menu">
+                    <span class="burger_line"></span>
+                    <span class="burger_line"></span>
+                    <span class="burger_line"></span>
+                </a>
+            </div>
         </header>
         <div class="main_slider">
-            <div class="swiper-container">
+            <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
                 <div class="slider_block_btn">
                     <a href="#" class="link btn_default main_btn header_btn_active">Подробнее</a>
                 </div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="slider_box slider slider1">
-                            <img src="./img/slider/title.jpg" alt="Лучшая авторская мебель">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slider_box slider slider2">
-                            <img src="./img/slider/title.jpg" alt="Новая авторская мебель">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
+                <div class="swiper-wrapper" style="transform: translate3d(-320px, 0px, 0px); transition: all 0ms ease 0s;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" style="width: 320px;">
                         <div class="slider_box slider slider3">
                             <img src="./img/slider/title.jpg" alt="Крутая авторская мебель">
                         </div>
                     </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
+                    <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 320px;">
+                        <div class="slider_box slider slider1">
+                            <img src="./img/slider/title.jpg" alt="Лучшая авторская мебель">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 320px;">
+                        <div class="slider_box slider slider2">
+                            <img src="./img/slider/title.jpg" alt="Новая авторская мебель">
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="2" style="width: 320px;">
+                        <div class="slider_box slider slider3">
+                            <img src="./img/slider/title.jpg" alt="Крутая авторская мебель">
+                        </div>
+                    </div>
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 320px;">
+                        <div class="slider_box slider slider1">
+                            <img src="./img/slider/title.jpg" alt="Лучшая авторская мебель">
+                        </div>
+                    </div></div>
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1">1</span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2">2</span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3">3</span></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </div>
     </div>
 
@@ -198,7 +215,7 @@
                     <a href="#services" class="link list_link btn_scroll">Услуги</a>
                 </li>
                 <li class="list_item footer_list_item">
-                    <a href="#" class="link list_link" btn_scroll>Галерея</a>
+                    <a href="#" class="link list_link" btn_scroll="">Галерея</a>
                 </li>
                 <li class="list_item footer_list_item">
                     <a href="#" class="link list_link btn_scroll">Контакты</a>
@@ -224,6 +241,8 @@
             </div>
         </div>
     </footer>
+
+
 </body>
 
 </html>
