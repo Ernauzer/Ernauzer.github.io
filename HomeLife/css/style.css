@@ -28,6 +28,7 @@ body {
     display: none;
 }
 .wrapper {
+    width: 100%;
     max-width: 1145px;
     margin: 0 auto;
 }
@@ -508,7 +509,6 @@ footer {
         position: fixed;
         background-color: rgba(205,205,205,0.9);
         top: 0;
-        width: 90%;
         padding-top: 10px;
         justify-content: space-between;
     }
