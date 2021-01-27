@@ -615,4 +615,10 @@ footer {
     .footer_social_block .social_link {
         margin: 0 5px;
     }
+    .wrapper {
+        max-width: 90%;
+    }
+    .header .wrapper {
+        
+    }
 }
