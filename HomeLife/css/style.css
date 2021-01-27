@@ -506,6 +506,7 @@ footer {
     }
     .main_header {
         position: fixed;
+        background-color: rgba(205,205,205,0.9);
         top: 0;
         width: 90%;
         padding-top: 10px;
