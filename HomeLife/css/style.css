@@ -60,8 +60,9 @@ body {
     padding-top: 39px;
     z-index: 100;
 }
-.link_logo {
-    display: block;
+.header_logo {
+    display: flex;
+    max-width: 116px;
 }
 .nav_list {
     display: flex;
