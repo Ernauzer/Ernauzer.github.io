@@ -54,9 +54,6 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 39px;
     z-index: 100;
 }
@@ -100,6 +97,11 @@ body {
 }
 .main_btn {
     padding: 9px 42px;
+}
+.main_header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header_btn_active {
     background-color: #ffc517;
